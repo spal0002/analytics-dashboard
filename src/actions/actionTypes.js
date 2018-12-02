@@ -1,0 +1,3 @@
+export const ON_LOAD_DASHBOARD = "ON_LOAD_DASHBOARD";
+export const ON_LOAD_BRANDS = "ON_LOAD_BRANDS";
+export const ON_LOAD_PATIENTS = "ON_LOAD_PATIENTS";

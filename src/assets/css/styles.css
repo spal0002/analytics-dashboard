@@ -1,0 +1,144 @@
+/*Coomn  Styles for differnet components*/
+.text-center {
+  text-align: center; }
+
+.pull-left {
+  padding-left: 0px !important; }
+
+.margin-0 {
+  margin: 0px; }
+
+.border-1 {
+  border: 1px solid #ddd; }
+
+.positive-arrow {
+  color: #00ffff; }
+
+.negative-arrow {
+  color: #ff0066; }
+
+.text-lab {
+  background: #a366ff; }
+
+.img-thumbnail {
+  height: 356px;
+  border: 0px; }
+
+.badge {
+  min-width: 52px;
+  padding: 7px 7px; }
+
+.badge-positive {
+  background-color: #00ffff; }
+
+.badge-negitive {
+  background-color: #ff0066; }
+
+.number-positive {
+  color: #00ffff; }
+
+.number-negitive {
+  color: #ff0066; }
+
+/* cooomn  styles */
+/* header styles */
+body {
+  background-color: #f5f5f5; }
+
+.panel-title {
+  padding-top: 10px;
+  padding-left: 10px;
+  color: blueviolet; }
+
+.container-fluid {
+  padding: 0px; }
+  .container-fluid .navbar-default {
+    background-color: #fff;
+    border-color: #e7e7e7; }
+    .container-fluid .navbar-default .navbar-nav > li > a {
+      color: #a366ff;
+      padding-top: 10px;
+      padding-bottom: 5px; }
+    .container-fluid .navbar-default .navbar-brand {
+      border-right: 1px solid #ddd; }
+      .container-fluid .navbar-default .navbar-brand .title-patient {
+        color: darkorchid;
+        font-weight: bold;
+        padding: 5px; }
+      .container-fluid .navbar-default .navbar-brand .title-profiler {
+        color: cornflowerblue;
+        padding: 5px; }
+    .container-fluid .navbar-default .nav-item {
+      border-right: 1px solid #ddd;
+      padding: 0px 20px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #a366ff; }
+      .container-fluid .navbar-default .nav-item .sub-nav {
+        margin: 0px;
+        color: #ddd;
+        font-size: 10px;
+        font-weight: 800; }
+      .container-fluid .navbar-default .nav-item .glyphicon {
+        float: right;
+        padding-left: 80px; }
+    .container-fluid .navbar-default .patient {
+      color: #ddd;
+      padding-top: 20px; }
+    .container-fluid .navbar-default .navbar-right {
+      padding-top: 10px; }
+
+/* main content styles */
+.container-fluid .container {
+  width: 98% !important; }
+
+.container-fluid .main-content {
+  border: solid 1px #dadada;
+  border-top: 0px;
+  margin: 2px; }
+  .container-fluid .main-content .dashboard-container {
+    padding: 0px; }
+    .container-fluid .main-content .dashboard-container .breadcrumb {
+      color: #333;
+      padding: 0px !important;
+      margin: 0px !important;
+      font-size: 12px !important; }
+    .container-fluid .main-content .dashboard-container .quick-container .jumbotron {
+      padding: 10px;
+      border-radius: 0px;
+      color: #fff;
+      padding-bottom: 20px; }
+    .container-fluid .main-content .dashboard-container .quick-container .Victoza {
+      background: #009999; }
+    .container-fluid .main-content .dashboard-container .quick-container .new_to_market {
+      background: #33cc33; }
+    .container-fluid .main-content .dashboard-container .quick-container .trx {
+      background: #669900; }
+    .container-fluid .main-content .dashboard-container .quick-container .total_patients {
+      background: #ff9900; }
+    .container-fluid .main-content .dashboard-container .quick-container .sub-title {
+      padding-bottom: 10px; }
+    .container-fluid .main-content .dashboard-container .quick-container .quick-items {
+      text-align: center; }
+      .container-fluid .main-content .dashboard-container .quick-container .quick-items span {
+        padding-left: 30px; }
+    .container-fluid .main-content .dashboard-container .brands-container table th {
+      color: #a366ff;
+      font-weight: 400; }
+    .container-fluid .main-content .dashboard-container .brands-container table th td {
+      text-align: right;
+      border-top: 0px; }
+    .container-fluid .main-content .dashboard-container .brands-container tbody > tr > td, .container-fluid .main-content .dashboard-container .brands-container .table > tfoot > tr > td {
+      border-top: 0px solid #ddd; }
+    .container-fluid .main-content .dashboard-container .trends-container .previous-label {
+      color: #808080; }
+    .container-fluid .main-content .dashboard-container .panel {
+      max-height: 500px;
+      overflow-y: auto; }
+      .container-fluid .main-content .dashboard-container .panel .panel-body {
+        border-bottom: 1px solid #ddd; }
+        .container-fluid .main-content .dashboard-container .panel .panel-body .img-thumbnail {
+          width: 100%; }
+    .container-fluid .main-content .dashboard-container .list-group {
+      max-height: 450px;
+      overflow-y: auto; }

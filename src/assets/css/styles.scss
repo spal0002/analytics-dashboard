@@ -1,0 +1,198 @@
+/*Coomn  Styles for differnet components*/
+
+.text-center {
+    text-align: center;
+}
+.pull-left{
+    padding-left: 0px !important;
+}
+.margin-0 {
+    margin: 0px;
+}
+.border-1 {
+    border: 1px solid #ddd;
+}
+.positive-arrow{
+    color: #00ffff
+}
+.negative-arrow{
+    color: #ff0066
+}
+.text-lab {
+    background: #a366ff;
+}
+.img-thumbnail{
+    height: 356px;
+    border: 0px;
+}
+.badge{
+    
+    min-width: 52px;
+    padding: 7px 7px;
+}
+.badge-positive{
+    background-color: #00ffff;
+}
+
+.badge-negitive{
+    background-color: #ff0066;
+}
+.number-positive {
+    color: #00ffff;
+}
+.number-negitive{
+    color: #ff0066;
+}
+/* cooomn  styles */
+/* header styles */
+body{
+    background-color: #f5f5f5
+}
+.panel-title {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: blueviolet;
+}
+.container-fluid {
+    padding: 0px;
+    .navbar-default {
+        background-color: #fff;
+        border-color: #e7e7e7;
+        .navbar-nav > li > a {
+            color: #a366ff;
+            padding-top: 10px;
+            padding-bottom: 5px;
+        }
+        
+        .navbar-brand {
+            border-right: 1px solid #ddd;
+            .title-patient {
+                    color: darkorchid;
+                    font-weight: bold;
+                    padding: 5px;
+                
+            }
+            .title-profiler {
+                color: cornflowerblue;
+                padding: 5px;
+        }
+           
+        }
+        
+        .nav-item{
+            border-right: 1px solid #ddd;
+            padding: 0px 20px;
+            font-size: 12px;
+            font-weight: bold;
+            color: #a366ff;
+            
+            .sub-nav {
+                margin: 0px;
+                color: #ddd;
+                font-size: 10px;
+                font-weight: 800;
+            }
+            .glyphicon{
+                float: right;
+                padding-left: 80px;
+            }
+        }
+        .patient{
+            color: #ddd;
+            padding-top: 20px;
+        }
+        .navbar-right{
+            padding-top: 10px
+        }
+    }
+    
+}
+/* main content styles */
+.container-fluid {
+    .container {
+        width: 98%!important;
+    }
+
+    .main-content {
+        border: solid 1px #dadada;
+        border-top: 0px;
+        margin: 2px;
+
+        .dashboard-container {
+            padding: 0px;
+            .breadcrumb {
+                color: #333;
+                padding: 0px !important;
+                margin: 0px !important;
+                font-size: 12px !important;
+            }
+            .quick-container {
+                  
+                .jumbotron{
+                    padding: 10px;
+                    border-radius: 0px;
+                    color: #fff;
+                    padding-bottom: 20px;
+                    
+                }
+                .Victoza{
+                    background: #009999; 
+                }
+                .new_to_market{
+                    background: #33cc33;
+                    
+                }
+                .trx{
+                    background: #669900;
+                   
+                }
+                .total_patients{
+                    background: #ff9900;
+                     
+                }
+                .sub-title{
+                    padding-bottom: 10px
+                }
+                .quick-items{
+                    text-align: center;
+                    span {
+                        padding-left:30px
+                    }
+                }
+            }
+            .brands-container {
+
+                table th {
+                    color: #a366ff;
+                    font-weight: 400;
+                }
+                table th td {
+                    text-align: right;
+                    border-top: 0px;
+                }
+                tbody > tr > td, .table > tfoot > tr > td {
+                    border-top: 0px solid #ddd;
+                }
+            }
+            .trends-container {
+                .previous-label{
+                    color: #808080;
+                }
+            }
+            .panel {
+                max-height: 500px;
+                overflow-y: auto;
+                .panel-body {
+                    border-bottom: 1px solid #ddd;
+                    .img-thumbnail {
+                        width: 100%
+                    }
+                }
+            }
+            .list-group{
+                max-height: 450px;
+                overflow-y: auto;
+            }
+        }
+    }
+}
