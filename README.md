@@ -1,2 +1,2 @@
-# ample-ui-react
-Ample UI with ReactJS
+# analytics-dashboard-react
+Analytics UI with ReactJS
